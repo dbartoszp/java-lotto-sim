@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lotto Simulator</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <form action="MainServlet" method="GET">
+            <h1>Lotto simulator</h1>
+            <hr>
+            <h2>Input a number between 1 and 49:</h2>
+            <p>Number: <input type="text" size="5" name="number"/></p>
+            <h2>Input the number of raffles between 1 and 1 000 000:</h2>
+            <p>Raffles: <input type="text" size="5" name="raffles"/></p>
+            <hr>
+            <input type="submit" value="run">
+        </form>
+        <form action ="CookieServlet" method="GET">
+            <h1>Show history (cookies)</h1>
+            <input type="submit" value="show">
+        </form>
+    </body>
+</html>
